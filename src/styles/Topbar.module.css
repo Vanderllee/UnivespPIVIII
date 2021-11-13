@@ -1,0 +1,93 @@
+.top {
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+    border-bottom: solid 2px  rgb(14, 149, 190);
+    position: sticky;
+    top: 0;
+
+    display: flex;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+
+    z-index: 999;
+
+}
+
+@media (max-width: 679px) {
+    .topImg {
+        display: none;
+    }
+
+    .topCenter {
+        margin-left: 100px;
+
+    }
+
+}
+
+.topLeft, .topRight {
+    flex: 3;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topCenter {
+    flex: 20;
+}
+
+.topImg img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+
+.topIcon {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #999;
+    cursor: pointer;
+    
+}
+
+.topList {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-right: 40px;
+    padding: 0;
+    list-style: none;
+}
+
+.topListItem {
+    margin-left: 18px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+
+
+.topIcon {
+    transition: 0.4s;
+    color: #999;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+.topIcon:hover {
+    color: #EEA900;
+    padding: 30px 10px;
+}
+
+/* 
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Varela', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+*/

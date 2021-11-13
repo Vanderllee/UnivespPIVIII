@@ -5,7 +5,7 @@ export const dataPost = [
         username: "https://g1.globo.com/jornal-nacional/noticia/2021/09/01/numero-de-desastres-naturais-causados-pelas-mudancas-climaticas-aumenta-cinco-vezes-em-50-anos.ghtml",
         date: '01/09/2021',
         text: 'O número de desastres naturais causados pelas mudanças climáticas aumentou cinco vezes em 50 anos e matou mais de 2 milhões de pessoas, a maioria em países em desenvolvimento.As conclusões são da Organização Meteorológica Mundial, agência ligada às Nações Unidas. O relatório também calcula também as perdas econômicas: mais de US$ 3,5 trilhões.',
-        imageURL: "https://lh3.googleusercontent.com/proxy/zbrt_9JJaQg6VAh5peWN9USCfCCShH5qakzVe642Mv72Apdt02h0l-eHKol_aQUcveyvHf5qYNFEsSUVp0vghANL8Yv7eZAPUWVxTjfxYwLbhd3315o",
+        imageURL: "https://www.bio.fiocruz.br/images/desastres-naturais.jpg",
     },
 
     {
